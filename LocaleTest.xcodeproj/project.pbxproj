@@ -11,6 +11,8 @@
 		C90DB7BD25EC8C6F00EEF80F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90DB7BC25EC8C6F00EEF80F /* ViewController.swift */; };
 		C90DB7BF25EC8C7100EEF80F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C90DB7BE25EC8C7100EEF80F /* Assets.xcassets */; };
 		C90DB7C225EC8C7100EEF80F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C90DB7C025EC8C7100EEF80F /* Main.storyboard */; };
+		C90DB7CC25EC965D00EEF80F /* TableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90DB7CB25EC965D00EEF80F /* TableCell.swift */; };
+		C90DB7D025ECA48300EEF80F /* ScreenShot01.png in Resources */ = {isa = PBXBuildFile; fileRef = C90DB7CF25ECA48300EEF80F /* ScreenShot01.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		C90DB7C125EC8C7100EEF80F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C90DB7C325EC8C7100EEF80F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C90DB7C425EC8C7100EEF80F /* LocaleTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LocaleTest.entitlements; sourceTree = "<group>"; };
+		C90DB7CB25EC965D00EEF80F /* TableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCell.swift; sourceTree = "<group>"; };
+		C90DB7CF25ECA48300EEF80F /* ScreenShot01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ScreenShot01.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,14 +57,24 @@
 		C90DB7B925EC8C6F00EEF80F /* LocaleTest */ = {
 			isa = PBXGroup;
 			children = (
+				C90DB7CE25ECA46E00EEF80F /* ScreenShot */,
 				C90DB7BA25EC8C6F00EEF80F /* AppDelegate.swift */,
 				C90DB7BC25EC8C6F00EEF80F /* ViewController.swift */,
 				C90DB7BE25EC8C7100EEF80F /* Assets.xcassets */,
 				C90DB7C025EC8C7100EEF80F /* Main.storyboard */,
+				C90DB7CB25EC965D00EEF80F /* TableCell.swift */,
 				C90DB7C325EC8C7100EEF80F /* Info.plist */,
 				C90DB7C425EC8C7100EEF80F /* LocaleTest.entitlements */,
 			);
 			path = LocaleTest;
+			sourceTree = "<group>";
+		};
+		C90DB7CE25ECA46E00EEF80F /* ScreenShot */ = {
+			isa = PBXGroup;
+			children = (
+				C90DB7CF25ECA48300EEF80F /* ScreenShot01.png */,
+			);
+			name = ScreenShot;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,6 +136,7 @@
 			files = (
 				C90DB7BF25EC8C7100EEF80F /* Assets.xcassets in Resources */,
 				C90DB7C225EC8C7100EEF80F /* Main.storyboard in Resources */,
+				C90DB7D025ECA48300EEF80F /* ScreenShot01.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C90DB7CC25EC965D00EEF80F /* TableCell.swift in Sources */,
 				C90DB7BD25EC8C6F00EEF80F /* ViewController.swift in Sources */,
 				C90DB7BB25EC8C6F00EEF80F /* AppDelegate.swift in Sources */,
 			);
