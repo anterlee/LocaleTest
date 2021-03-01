@@ -13,6 +13,7 @@
 		C90DB7C225EC8C7100EEF80F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C90DB7C025EC8C7100EEF80F /* Main.storyboard */; };
 		C90DB7CC25EC965D00EEF80F /* TableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90DB7CB25EC965D00EEF80F /* TableCell.swift */; };
 		C90DB7D025ECA48300EEF80F /* ScreenShot01.png in Resources */ = {isa = PBXBuildFile; fileRef = C90DB7CF25ECA48300EEF80F /* ScreenShot01.png */; };
+		C90DB7D325ECA4FA00EEF80F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = C90DB7D225ECA4FA00EEF80F /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		C90DB7C425EC8C7100EEF80F /* LocaleTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LocaleTest.entitlements; sourceTree = "<group>"; };
 		C90DB7CB25EC965D00EEF80F /* TableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCell.swift; sourceTree = "<group>"; };
 		C90DB7CF25ECA48300EEF80F /* ScreenShot01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ScreenShot01.png; sourceTree = "<group>"; };
+		C90DB7D225ECA4FA00EEF80F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +43,7 @@
 		C90DB7AE25EC8C6F00EEF80F = {
 			isa = PBXGroup;
 			children = (
+				C90DB7D225ECA4FA00EEF80F /* README.md */,
 				C90DB7B925EC8C6F00EEF80F /* LocaleTest */,
 				C90DB7B825EC8C6F00EEF80F /* Products */,
 			);
@@ -136,6 +139,7 @@
 			files = (
 				C90DB7BF25EC8C7100EEF80F /* Assets.xcassets in Resources */,
 				C90DB7C225EC8C7100EEF80F /* Main.storyboard in Resources */,
+				C90DB7D325ECA4FA00EEF80F /* README.md in Resources */,
 				C90DB7D025ECA48300EEF80F /* ScreenShot01.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
